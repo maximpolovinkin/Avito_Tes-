@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		322EB85528FF4FCE00190421 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EB85428FF4FCE00190421 /* TestModel.swift */; };
+		322EB85528FF4FCE00190421 /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EB85428FF4FCE00190421 /* SectionModel.swift */; };
 		322EB85828FF51FE00190421 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EB85728FF51FE00190421 /* TableViewExtension.swift */; };
+		322EB8612901C71000190421 /* EmployeeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EB8602901C71000190421 /* EmployeeDataModel.swift */; };
+		322EB8632901D3FF00190421 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EB8622901D3FF00190421 /* MainTableViewCell.swift */; };
+		322EB8652901D79C00190421 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EB8642901D79C00190421 /* ViewControllerExtensions.swift */; };
+		322EB86729034D9500190421 /* EmployeeCacheWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EB86629034D9500190421 /* EmployeeCacheWorking.swift */; };
 		3242ABD428FF4CEF00B68229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242ABD328FF4CEF00B68229 /* AppDelegate.swift */; };
 		3242ABD628FF4CEF00B68229 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242ABD528FF4CEF00B68229 /* SceneDelegate.swift */; };
 		3242ABD828FF4CEF00B68229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242ABD728FF4CEF00B68229 /* ViewController.swift */; };
@@ -17,7 +21,6 @@
 		3242ABEB28FF4CEF00B68229 /* Avito_Tes_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242ABEA28FF4CEF00B68229 /* Avito_Tes_Tests.swift */; };
 		3242ABF528FF4CEF00B68229 /* Avito_Tes_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242ABF428FF4CEF00B68229 /* Avito_Tes_UITests.swift */; };
 		3242ABF728FF4CEF00B68229 /* Avito_Tes_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242ABF628FF4CEF00B68229 /* Avito_Tes_UITestsLaunchTests.swift */; };
-		3242AC0528FF4D6900B68229 /* EmployeesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242AC0428FF4D6900B68229 /* EmployeesDataModel.swift */; };
 		3242AC0928FF4D9500B68229 /* NetworkingServise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242AC0828FF4D9500B68229 /* NetworkingServise.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		322EB85428FF4FCE00190421 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
+		322EB85428FF4FCE00190421 /* SectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
 		322EB85728FF51FE00190421 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		322EB8602901C71000190421 /* EmployeeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDataModel.swift; sourceTree = "<group>"; };
+		322EB8622901D3FF00190421 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		322EB8642901D79C00190421 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
+		322EB86629034D9500190421 /* EmployeeCacheWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCacheWorking.swift; sourceTree = "<group>"; };
 		3242ABD028FF4CEF00B68229 /* Avito_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avito_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3242ABD328FF4CEF00B68229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3242ABD528FF4CEF00B68229 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +60,6 @@
 		3242ABF028FF4CEF00B68229 /* Avito_TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Avito_TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3242ABF428FF4CEF00B68229 /* Avito_Tes_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avito_Tes_UITests.swift; sourceTree = "<group>"; };
 		3242ABF628FF4CEF00B68229 /* Avito_Tes_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avito_Tes_UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3242AC0428FF4D6900B68229 /* EmployeesDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesDataModel.swift; sourceTree = "<group>"; };
 		3242AC0828FF4D9500B68229 /* NetworkingServise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingServise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				322EB85728FF51FE00190421 /* TableViewExtension.swift */,
+				322EB8642901D79C00190421 /* ViewControllerExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -146,8 +153,9 @@
 		3242AC0328FF4D5400B68229 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3242AC0428FF4D6900B68229 /* EmployeesDataModel.swift */,
-				322EB85428FF4FCE00190421 /* TestModel.swift */,
+				322EB85428FF4FCE00190421 /* SectionModel.swift */,
+				322EB8602901C71000190421 /* EmployeeDataModel.swift */,
+				322EB8622901D3FF00190421 /* MainTableViewCell.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				3242AC0828FF4D9500B68229 /* NetworkingServise.swift */,
+				322EB86629034D9500190421 /* EmployeeCacheWorking.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -299,11 +308,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3242ABD828FF4CEF00B68229 /* ViewController.swift in Sources */,
-				3242AC0528FF4D6900B68229 /* EmployeesDataModel.swift in Sources */,
+				322EB8612901C71000190421 /* EmployeeDataModel.swift in Sources */,
+				322EB8632901D3FF00190421 /* MainTableViewCell.swift in Sources */,
 				3242ABD428FF4CEF00B68229 /* AppDelegate.swift in Sources */,
 				322EB85828FF51FE00190421 /* TableViewExtension.swift in Sources */,
-				322EB85528FF4FCE00190421 /* TestModel.swift in Sources */,
+				322EB85528FF4FCE00190421 /* SectionModel.swift in Sources */,
 				3242AC0928FF4D9500B68229 /* NetworkingServise.swift in Sources */,
+				322EB8652901D79C00190421 /* ViewControllerExtensions.swift in Sources */,
+				322EB86729034D9500190421 /* EmployeeCacheWorking.swift in Sources */,
 				3242ABD628FF4CEF00B68229 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

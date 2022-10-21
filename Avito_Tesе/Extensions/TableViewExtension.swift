@@ -10,28 +10,34 @@ import UIKit
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        data[section].row.count
+        sections[section].values.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = mainTable.dequeueReusableCell(withIdentifier: id, for: indexPath)
-        cell.textLabel?.text = data[indexPath.section].row[indexPath.row]
+        let cell = mainTable.dequeueReusableCell(withIdentifier: id, for: indexPath) as! MainTableViewCell
         
+      
+            cell.nameLabel.text = sections[indexPath.section].values[indexPath.row].name
+            cell.numberLabel.text = "Phone number:  \(sections[indexPath.section].values[indexPath.row].phoneNumber)"
+            cell.skillsLabel.text = "Skills:  \(sections[indexPath.section].values[indexPath.row].skills.joined(separator: ", "))"
+  
+        cell.selectionStyle = UITableViewCell.SelectionStyle.none
         return cell
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        data.count
+      
+        sections.count
     }
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        data[section].header
+        sections[section].title
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 30
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 44
+        return 160
     }
 }
