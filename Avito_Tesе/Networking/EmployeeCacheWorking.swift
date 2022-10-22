@@ -24,7 +24,7 @@ final class EmployeeCacheWorking {
     func isTimeIsUp() -> Bool{
         let currentTime = NSDate().timeIntervalSince1970
         let lastLoad = userDefaults.double(forKey: CacheWorkKeys.lastSaveTime)
-       
+        
         
         return !(currentTime - lastLoad > CacheWorkKeys.time)
     }
@@ -56,10 +56,9 @@ final class EmployeeCacheWorking {
         }
     }
     
-   private func loadFromCache() -> Result<[Employee], CacheError>{
+    private func loadFromCache() -> Result<[Employee], CacheError>{
         
         guard isTimeIsUp() else {
-            //Можно сделать модалку с ошибкой
             clearCache()
             return .failure(.error)
         }
@@ -75,8 +74,6 @@ final class EmployeeCacheWorking {
         return .success(decodedData)
         
     }
-    
-    
     
     func clearCache(){
         userDefaults.removeObject(forKey: CacheWorkKeys.data)

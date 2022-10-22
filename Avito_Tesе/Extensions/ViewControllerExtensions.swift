@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import UIKit
 
 extension ViewController {
   
@@ -51,6 +52,11 @@ extension ViewController {
                     self.mainTable.reloadData()
                 }
             case .failure(let error):
+                
+                let alert = UIAlertController(title: "Упс! Возникла ошибка", message: "Проверьте соединение и перезапустите приложение.", preferredStyle: UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "Ок", style: UIAlertAction.Style.default, handler: nil))
+                self.present(alert, animated: true, completion: nil)
+                
                 print(error)
                 
             }
