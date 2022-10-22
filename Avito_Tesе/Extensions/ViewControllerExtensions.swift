@@ -19,6 +19,7 @@ extension ViewController {
                 self.employee = data.company.employees
                 
                 DispatchQueue.main.async {
+                    self.cache.saveToCache(employee: self.employee)
                     self.sort(employee: data.company.employees)
                     self.mainTable.reloadData()
                 }

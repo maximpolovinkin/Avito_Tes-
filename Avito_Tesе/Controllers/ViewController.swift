@@ -21,8 +21,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        if NetworkMonitor.shared.isConnected {
+            print("connected")
+            loadFromApi()
+        } else  {
+            print("not connected")
+            loadFromCache()
+        }
+        
         setupViews()
-        loadFromApi()
+       
     }
     
     func setupViews() {

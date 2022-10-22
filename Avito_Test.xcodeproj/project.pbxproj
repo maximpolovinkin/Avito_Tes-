@@ -13,6 +13,7 @@
 		322EB8632901D3FF00190421 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EB8622901D3FF00190421 /* MainTableViewCell.swift */; };
 		322EB8652901D79C00190421 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EB8642901D79C00190421 /* ViewControllerExtensions.swift */; };
 		322EB86729034D9500190421 /* EmployeeCacheWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EB86629034D9500190421 /* EmployeeCacheWorking.swift */; };
+		322EB8692904090F00190421 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322EB8682904090F00190421 /* NetworkMonitor.swift */; };
 		3242ABD428FF4CEF00B68229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242ABD328FF4CEF00B68229 /* AppDelegate.swift */; };
 		3242ABD628FF4CEF00B68229 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242ABD528FF4CEF00B68229 /* SceneDelegate.swift */; };
 		3242ABD828FF4CEF00B68229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3242ABD728FF4CEF00B68229 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		322EB8622901D3FF00190421 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
 		322EB8642901D79C00190421 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
 		322EB86629034D9500190421 /* EmployeeCacheWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCacheWorking.swift; sourceTree = "<group>"; };
+		322EB8682904090F00190421 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		3242ABD028FF4CEF00B68229 /* Avito_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avito_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3242ABD328FF4CEF00B68229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3242ABD528FF4CEF00B68229 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			children = (
 				3242AC0828FF4D9500B68229 /* NetworkingServise.swift */,
 				322EB86629034D9500190421 /* EmployeeCacheWorking.swift */,
+				322EB8682904090F00190421 /* NetworkMonitor.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322EB8692904090F00190421 /* NetworkMonitor.swift in Sources */,
 				3242ABD828FF4CEF00B68229 /* ViewController.swift in Sources */,
 				322EB8612901C71000190421 /* EmployeeDataModel.swift in Sources */,
 				322EB8632901D3FF00190421 /* MainTableViewCell.swift in Sources */,
