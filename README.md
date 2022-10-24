@@ -9,7 +9,10 @@
 </div>
  <h4>Ipad</>
 <div>
+ <img src="https://sun1.userapi.com/sun1-87/s/v1/ig2/lgCf7UhcWj017UzApwrm6oN-B8RT5-D61z4udcSqUIU4zD8KKT4HhnDvLPXyfUFMH-vRbkN8OsdCv4Ec6JZSRQpd.jpg?size=1620x2160&quality=96&type=album" height="500" align="center"/>
  <img src="https://sun9-north.userapi.com/sun9-79/s/v1/ig2/T9wlgeNySFodp1qEgl-vHCtQMAN6trY8UC_nP-WSKxTtvDBqE09aErian-4vNZLGEsaxN2fkFiduUTUZcdHUQFib.jpg?size=1620x2160&quality=96&type=album" height="500" align="center"/>
+ 
+ <img src="https://sun9-north.userapi.com/sun9-86/s/v1/ig2/z3sttmYQ30pYKLWlbkYqarp66Y3MA2W8PK2nC0cG7R4ZEHyyiynyboNGp70Lryx_xN-PCdb7i-kV1VyzaPifgyNm.jpg?size=1620x2160&quality=96&type=album" height="500" align="center" />
 </div>
 <h3>Используемый стек технологий:</>
 <div>
