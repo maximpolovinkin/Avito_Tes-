@@ -11,3 +11,10 @@
 <div>
  <img src="https://sun9-north.userapi.com/sun9-79/s/v1/ig2/T9wlgeNySFodp1qEgl-vHCtQMAN6trY8UC_nP-WSKxTtvDBqE09aErian-4vNZLGEsaxN2fkFiduUTUZcdHUQFib.jpg?size=1620x2160&quality=96&type=album" height="500" align="center"/>
 </div>
+<div>
+<p>Приложение работает на iOS 13 и выше
+Реализована поддержка iPhone и iPad
+Список отсортирован по алфавиту
+Кэширование ответа на 1 час
+Обработаны случаи потери сети / отсутствия соединения </>
+</div>
