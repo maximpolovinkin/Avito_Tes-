@@ -16,17 +16,17 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = mainTable.dequeueReusableCell(withIdentifier: id, for: indexPath) as! MainTableViewCell
         
-      
-            cell.nameLabel.text = sections[indexPath.section].values[indexPath.row].name
-            cell.numberLabel.text = "Phone number:  \(sections[indexPath.section].values[indexPath.row].phoneNumber)"
-            cell.skillsLabel.text = "Skills:  \(sections[indexPath.section].values[indexPath.row].skills.joined(separator: ", "))"
-  
+        
+        cell.nameLabel.text = sections[indexPath.section].values[indexPath.row].name
+        cell.numberLabel.text = "Phone number:  \(sections[indexPath.section].values[indexPath.row].phoneNumber)"
+        cell.skillsLabel.text = "Skills:  \(sections[indexPath.section].values[indexPath.row].skills.joined(separator: ", "))"
+        
         cell.selectionStyle = UITableViewCell.SelectionStyle.none
         return cell
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-      
+        
         sections.count
     }
     

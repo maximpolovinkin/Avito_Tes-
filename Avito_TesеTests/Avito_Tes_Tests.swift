@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Avito_Tes_
+@testable import Avito_Test
 
 class Avito_Tes_Tests: XCTestCase {
 
@@ -25,6 +25,8 @@ class Avito_Tes_Tests: XCTestCase {
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
+    
+    
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

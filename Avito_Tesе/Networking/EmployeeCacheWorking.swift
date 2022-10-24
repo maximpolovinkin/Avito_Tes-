@@ -25,7 +25,6 @@ final class EmployeeCacheWorking {
         let currentTime = NSDate().timeIntervalSince1970
         let lastLoad = userDefaults.double(forKey: CacheWorkKeys.lastSaveTime)
         
-        
         return !(currentTime - lastLoad > CacheWorkKeys.time)
     }
     

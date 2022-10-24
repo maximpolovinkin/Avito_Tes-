@@ -8,7 +8,7 @@
 import UIKit
 
 class MainTableViewCell: UITableViewCell {
-
+    
     
     var nameLabel = UILabel()
     var numberLabel = UILabel()
@@ -19,25 +19,12 @@ class MainTableViewCell: UITableViewCell {
         labelsStack.axis = .vertical
         labelsStack.spacing = 16
         
-       
-        
         return labelsStack
     }()
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-    
+        
         setViews()
         setStackConstraints()
     }
@@ -64,5 +51,5 @@ class MainTableViewCell: UITableViewCell {
         
         nameLabel.font = .systemFont(ofSize: 20)
     }
-
+    
 }

@@ -14,9 +14,7 @@ class ViewController: UIViewController {
     
     let id = "cell"
     var employee = [Employee]()
-   // var sortedEmployee: (keys: [String], values: [[Employee]])? = nil
     var sections = [SectionModel]()
-   // var networkingService = NetworkingService()
     let cache = EmployeeCacheWorking()
     
     override func viewDidLoad() {
@@ -71,16 +69,8 @@ class ViewController: UIViewController {
         for i in 0..<sortedKeys.count{
             let section = SectionModel(title: sortedKeys[i], values: [])
             sections.append(section)
-            // for j in dict[sortedKeys[i]]! {
             sections[i].values =  dict[sortedKeys[i]]!
-            //}
         }
-        
-        
-        //sortedValues = dict.values.sorted(by: {$0[0].name < $1[0].name})
-            
-       
-        //return (sortedKeys, sortedValues)
     }
 }
 

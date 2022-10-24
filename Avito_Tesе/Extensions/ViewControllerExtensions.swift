@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 extension ViewController {
-  
+    
     func loadFromApi() {
         let networkManager = NetworkManager()
         
@@ -24,13 +24,6 @@ extension ViewController {
                     self.sort(employee: data.company.employees)
                     self.mainTable.reloadData()
                 }
-                
-                //                DispatchQueue.global().async {
-                //                    self.cache.saveToCache(employee: self.employee)
-                //                }
-                //
-                //                self.cache.print()
-                
             case .failure(let error):
                 print(error)
             }
