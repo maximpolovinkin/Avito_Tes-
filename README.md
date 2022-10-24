@@ -15,7 +15,7 @@
 <div>
 <li>Вёрстка кодом, UIkit</>
 <li>Отображение данных -  UITableView </>
-<li>Кэширование данныъ - UserDefaults </>
+<li>Кэширование данных - UserDefaults </>
 <li>Загрузка данных - URLSession</>
 </div>
 
