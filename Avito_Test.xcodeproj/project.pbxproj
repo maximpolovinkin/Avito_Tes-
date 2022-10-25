@@ -122,7 +122,7 @@
 		3242ABD228FF4CEF00B68229 /* Avito_Tesе */ = {
 			isa = PBXGroup;
 			children = (
-				32449A5B2907EF1E00F96D96 /* New Group */,
+				32449A5B2907EF1E00F96D96 /* Other Files */,
 				32449A5A2907EEF100F96D96 /* Delegates */,
 				322EB85628FF51ED00190421 /* Extensions */,
 				3242AC0728FF4D7F00B68229 /* Networking */,
@@ -187,13 +187,13 @@
 			path = Delegates;
 			sourceTree = "<group>";
 		};
-		32449A5B2907EF1E00F96D96 /* New Group */ = {
+		32449A5B2907EF1E00F96D96 /* Other Files */ = {
 			isa = PBXGroup;
 			children = (
 				3242ABDC28FF4CEF00B68229 /* Assets.xcassets */,
 				3242ABDE28FF4CEF00B68229 /* LaunchScreen.storyboard */,
 			);
-			path = "New Group";
+			path = "Other Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
