@@ -29,7 +29,6 @@ final class NetworkManager {
             sessionConfig.timeoutIntervalForRequest = 5
             return URLSession(configuration: sessionConfig)
         }()
-        
         let task = session.dataTask(with: url) { data, response, error in
             guard let data = data else {
                 return status(.failure(.nilData))
